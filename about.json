@@ -2,7 +2,7 @@
   "version": "1.0.1",
   "name": "My Profile Menu Component",
   "assets": {
-  	"javascripts/dynamic-profile-link.js": "assets/javascripts/dynamic-profile-link.js"
+  	"javascripts/dynamic-profile-link.js": "javascripts/dynamic-profile-link.js"
   },
   "about": "A Discourse Theme Component that adds the menu item 'My Profile' in the left marging",
   "license_url": "https://opensource.org/licenses/MIT",
