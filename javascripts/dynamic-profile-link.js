@@ -1,4 +1,5 @@
 require(["application", "I18n"], function (Discourse, I18n) {
+  console.log("Discourse en I18n geladen:", Discourse, I18n);
   Discourse.initialized = function() {
     Discourse.TopicRoute.reopen({
       activate() {
