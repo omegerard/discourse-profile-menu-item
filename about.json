@@ -1,8 +1,8 @@
 {
+  "version": "1.0.1",
   "name": "My Profile Menu Component",
   "about": "A Discourse Theme Component that adds the menu item 'My Profile' in the left marging",
-  "version": "1.0.0",
-  "authors": ["Ludo Vangilbergen"],
-  "license_url": "https://opensource.org/licenses/MIT"
+  "license_url": "https://opensource.org/licenses/MIT",
+  "component": true,
+  "authors": ["Ludo Vangilbergen"]
 }
-
