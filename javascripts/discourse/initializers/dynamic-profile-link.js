@@ -1,14 +1,14 @@
+import User from "discourse/models/user";
+
 export default {
-  name: "dynamic-profile-link", // Naam van de initializer (vrij te kiezen)
+  name: "dynamic-profile-link", // Naam van de initializer
 
   initialize() {
     console.log("My GiPSo Discourse Theme Component werkt!");
 
-    // Voeg hier je functionaliteit toe
-    const currentUser = Discourse.User.current();
+    const currentUser = User.current();
     if (currentUser) {
       console.log(`Gebruiker ingelogd: ${currentUser.username}`);
     }
   }
 };
-
