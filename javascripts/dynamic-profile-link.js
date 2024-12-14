@@ -1,1 +1,4 @@
-console.log("Theme Component script geladen");
+document.addEventListener("DOMContentLoaded", function () {
+  console.log("My GiPSo Discourse Theme Component werkt!");
+});
+
